@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC45E812AFE733900DBBCDA /* ShoegazeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45E802AFE733900DBBCDA /* ShoegazeApp.swift */; };
+		0AC45E832AFE733900DBBCDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45E822AFE733900DBBCDA /* ContentView.swift */; };
+		0AC45E852AFE733900DBBCDA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45E842AFE733900DBBCDA /* Item.swift */; };
+		0AC45E872AFE733D00DBBCDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC45E862AFE733D00DBBCDA /* Assets.xcassets */; };
+		0AC45E8B2AFE733D00DBBCDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC45E8A2AFE733D00DBBCDA /* Preview Assets.xcassets */; };
+		0AC45E952AFE733D00DBBCDA /* ShoegazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45E942AFE733D00DBBCDA /* ShoegazeTests.swift */; };
+		0AC45E9F2AFE733D00DBBCDA /* ShoegazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45E9E2AFE733D00DBBCDA /* ShoegazeUITests.swift */; };
+		0AC45EA12AFE733D00DBBCDA /* ShoegazeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45EA02AFE733D00DBBCDA /* ShoegazeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AC45E912AFE733D00DBBCDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC45E752AFE733900DBBCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC45E7C2AFE733900DBBCDA;
+			remoteInfo = Shoegaze;
+		};
+		0AC45E9B2AFE733D00DBBCDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC45E752AFE733900DBBCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC45E7C2AFE733900DBBCDA;
+			remoteInfo = Shoegaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC45E7D2AFE733900DBBCDA /* Shoegaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoegaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC45E802AFE733900DBBCDA /* ShoegazeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoegazeApp.swift; sourceTree = "<group>"; };
+		0AC45E822AFE733900DBBCDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AC45E842AFE733900DBBCDA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0AC45E862AFE733D00DBBCDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AC45E882AFE733D00DBBCDA /* Shoegaze.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shoegaze.entitlements; sourceTree = "<group>"; };
+		0AC45E8A2AFE733D00DBBCDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AC45E902AFE733D00DBBCDA /* ShoegazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoegazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC45E942AFE733D00DBBCDA /* ShoegazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoegazeTests.swift; sourceTree = "<group>"; };
+		0AC45E9A2AFE733D00DBBCDA /* ShoegazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoegazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC45E9E2AFE733D00DBBCDA /* ShoegazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoegazeUITests.swift; sourceTree = "<group>"; };
+		0AC45EA02AFE733D00DBBCDA /* ShoegazeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoegazeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC45E7A2AFE733900DBBCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC45E8D2AFE733D00DBBCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC45E972AFE733D00DBBCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC45E742AFE733900DBBCDA = {
+			isa = PBXGroup;
+			children = (
+				0AC45E7F2AFE733900DBBCDA /* Shoegaze */,
+				0AC45E932AFE733D00DBBCDA /* ShoegazeTests */,
+				0AC45E9D2AFE733D00DBBCDA /* ShoegazeUITests */,
+				0AC45E7E2AFE733900DBBCDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC45E7E2AFE733900DBBCDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC45E7D2AFE733900DBBCDA /* Shoegaze.app */,
+				0AC45E902AFE733D00DBBCDA /* ShoegazeTests.xctest */,
+				0AC45E9A2AFE733D00DBBCDA /* ShoegazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC45E7F2AFE733900DBBCDA /* Shoegaze */ = {
+			isa = PBXGroup;
+			children = (
+				0AC45E802AFE733900DBBCDA /* ShoegazeApp.swift */,
+				0AC45E822AFE733900DBBCDA /* ContentView.swift */,
+				0AC45E842AFE733900DBBCDA /* Item.swift */,
+				0AC45E862AFE733D00DBBCDA /* Assets.xcassets */,
+				0AC45E882AFE733D00DBBCDA /* Shoegaze.entitlements */,
+				0AC45E892AFE733D00DBBCDA /* Preview Content */,
+			);
+			path = Shoegaze;
+			sourceTree = "<group>";
+		};
+		0AC45E892AFE733D00DBBCDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AC45E8A2AFE733D00DBBCDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AC45E932AFE733D00DBBCDA /* ShoegazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC45E942AFE733D00DBBCDA /* ShoegazeTests.swift */,
+			);
+			path = ShoegazeTests;
+			sourceTree = "<group>";
+		};
+		0AC45E9D2AFE733D00DBBCDA /* ShoegazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC45E9E2AFE733D00DBBCDA /* ShoegazeUITests.swift */,
+				0AC45EA02AFE733D00DBBCDA /* ShoegazeUITestsLaunchTests.swift */,
+			);
+			path = ShoegazeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AC45E7C2AFE733900DBBCDA /* Shoegaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC45EA42AFE733D00DBBCDA /* Build configuration list for PBXNativeTarget "Shoegaze" */;
+			buildPhases = (
+				0AC45E792AFE733900DBBCDA /* Sources */,
+				0AC45E7A2AFE733900DBBCDA /* Frameworks */,
+				0AC45E7B2AFE733900DBBCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shoegaze;
+			productName = Shoegaze;
+			productReference = 0AC45E7D2AFE733900DBBCDA /* Shoegaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AC45E8F2AFE733D00DBBCDA /* ShoegazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC45EA72AFE733D00DBBCDA /* Build configuration list for PBXNativeTarget "ShoegazeTests" */;
+			buildPhases = (
+				0AC45E8C2AFE733D00DBBCDA /* Sources */,
+				0AC45E8D2AFE733D00DBBCDA /* Frameworks */,
+				0AC45E8E2AFE733D00DBBCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC45E922AFE733D00DBBCDA /* PBXTargetDependency */,
+			);
+			name = ShoegazeTests;
+			productName = ShoegazeTests;
+			productReference = 0AC45E902AFE733D00DBBCDA /* ShoegazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AC45E992AFE733D00DBBCDA /* ShoegazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC45EAA2AFE733D00DBBCDA /* Build configuration list for PBXNativeTarget "ShoegazeUITests" */;
+			buildPhases = (
+				0AC45E962AFE733D00DBBCDA /* Sources */,
+				0AC45E972AFE733D00DBBCDA /* Frameworks */,
+				0AC45E982AFE733D00DBBCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC45E9C2AFE733D00DBBCDA /* PBXTargetDependency */,
+			);
+			name = ShoegazeUITests;
+			productName = ShoegazeUITests;
+			productReference = 0AC45E9A2AFE733D00DBBCDA /* ShoegazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC45E752AFE733900DBBCDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0AC45E7C2AFE733900DBBCDA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0AC45E8F2AFE733D00DBBCDA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0AC45E7C2AFE733900DBBCDA;
+					};
+					0AC45E992AFE733D00DBBCDA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0AC45E7C2AFE733900DBBCDA;
+					};
+				};
+			};
+			buildConfigurationList = 0AC45E782AFE733900DBBCDA /* Build configuration list for PBXProject "Shoegaze" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AC45E742AFE733900DBBCDA;
+			productRefGroup = 0AC45E7E2AFE733900DBBCDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC45E7C2AFE733900DBBCDA /* Shoegaze */,
+				0AC45E8F2AFE733D00DBBCDA /* ShoegazeTests */,
+				0AC45E992AFE733D00DBBCDA /* ShoegazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AC45E7B2AFE733900DBBCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC45E8B2AFE733D00DBBCDA /* Preview Assets.xcassets in Resources */,
+				0AC45E872AFE733D00DBBCDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC45E8E2AFE733D00DBBCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC45E982AFE733D00DBBCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC45E792AFE733900DBBCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC45E832AFE733900DBBCDA /* ContentView.swift in Sources */,
+				0AC45E852AFE733900DBBCDA /* Item.swift in Sources */,
+				0AC45E812AFE733900DBBCDA /* ShoegazeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC45E8C2AFE733D00DBBCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC45E952AFE733D00DBBCDA /* ShoegazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC45E962AFE733D00DBBCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC45EA12AFE733D00DBBCDA /* ShoegazeUITestsLaunchTests.swift in Sources */,
+				0AC45E9F2AFE733D00DBBCDA /* ShoegazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AC45E922AFE733D00DBBCDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC45E7C2AFE733900DBBCDA /* Shoegaze */;
+			targetProxy = 0AC45E912AFE733D00DBBCDA /* PBXContainerItemProxy */;
+		};
+		0AC45E9C2AFE733D00DBBCDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC45E7C2AFE733900DBBCDA /* Shoegaze */;
+			targetProxy = 0AC45E9B2AFE733D00DBBCDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AC45EA22AFE733D00DBBCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AC45EA32AFE733D00DBBCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0AC45EA52AFE733D00DBBCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shoegaze/Shoegaze.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shoegaze/Preview Content\"";
+				DEVELOPMENT_TEAM = P9KK68PA63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shoegaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AC45EA62AFE733D00DBBCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shoegaze/Shoegaze.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shoegaze/Preview Content\"";
+				DEVELOPMENT_TEAM = P9KK68PA63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shoegaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AC45EA82AFE733D00DBBCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9KK68PA63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoegazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoegaze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shoegaze";
+			};
+			name = Debug;
+		};
+		0AC45EA92AFE733D00DBBCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9KK68PA63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoegazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoegaze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shoegaze";
+			};
+			name = Release;
+		};
+		0AC45EAB2AFE733D00DBBCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9KK68PA63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoegazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shoegaze;
+			};
+			name = Debug;
+		};
+		0AC45EAC2AFE733D00DBBCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9KK68PA63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShoegazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shoegaze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC45E782AFE733900DBBCDA /* Build configuration list for PBXProject "Shoegaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC45EA22AFE733D00DBBCDA /* Debug */,
+				0AC45EA32AFE733D00DBBCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC45EA42AFE733D00DBBCDA /* Build configuration list for PBXNativeTarget "Shoegaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC45EA52AFE733D00DBBCDA /* Debug */,
+				0AC45EA62AFE733D00DBBCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC45EA72AFE733D00DBBCDA /* Build configuration list for PBXNativeTarget "ShoegazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC45EA82AFE733D00DBBCDA /* Debug */,
+				0AC45EA92AFE733D00DBBCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC45EAA2AFE733D00DBBCDA /* Build configuration list for PBXNativeTarget "ShoegazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC45EAB2AFE733D00DBBCDA /* Debug */,
+				0AC45EAC2AFE733D00DBBCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC45E752AFE733900DBBCDA /* Project object */;
+}
